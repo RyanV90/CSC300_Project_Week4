@@ -3,6 +3,7 @@
 Cart::Cart()
 {
 	numberOfItems = 0;
+	subtotal = 0.0;
 	isOperational = true;
 	listOfItems = {};
 }
@@ -17,6 +18,16 @@ void Cart::setNumberOfItems(int numberOfItems)
 	this->numberOfItems = numberOfItems;
 }
 
+double Cart::getSubtotal() const
+{
+	return subtotal;
+}
+
+void Cart::setSubtotal(double subtotal)
+{
+	this->subtotal = subtotal;
+}
+
 bool Cart::getIsOperational() const
 {
 	return isOperational;
@@ -27,7 +38,7 @@ void Cart::setIsOperational(bool isOperational)
 	this->isOperational = isOperational;
 }
 
-void Cart::getListOfItems(int numberOfItems)
+void Cart::getListOfItems()
 {
 	for (int i = 0; i < numberOfItems; i++)
 	{

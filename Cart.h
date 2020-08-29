@@ -11,15 +11,18 @@ class Cart {
 public:
 	Cart();
 	int getNumberOfItems() const;
-	void setNumberOfItems(int);
+	void setNumberOfItems(int numberOfItems);
+	double getSubtotal() const;
+	void setSubtotal(double subtotal);
 	bool getIsOperational() const;
-	void setIsOperational(bool);
-	void getListOfItems(int);
-	void addItemToCart(string);
-	void removeItemFromCart(string);
+	void setIsOperational(bool isOperational);
+	void getListOfItems();
+	void addItemToCart(string itemName);
+	void removeItemFromCart(string itemName);
 
 private:
 	int numberOfItems;
+	double subtotal;
 	bool isOperational;
 	string* listOfItems = new string();
 	BarCodeScanner barCodeScanner;
