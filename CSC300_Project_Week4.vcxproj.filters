@@ -32,5 +32,14 @@
     <ClInclude Include="Cart.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Customer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Employee.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Store.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

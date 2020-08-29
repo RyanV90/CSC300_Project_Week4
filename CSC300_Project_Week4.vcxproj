@@ -154,6 +154,9 @@
   <ItemGroup>
     <ClInclude Include="BarCodeScanner.h" />
     <ClInclude Include="Cart.h" />
+    <ClInclude Include="Customer.h" />
+    <ClInclude Include="Employee.h" />
+    <ClInclude Include="Store.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
