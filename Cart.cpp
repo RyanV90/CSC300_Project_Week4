@@ -39,7 +39,6 @@ void Cart::setIsOperational(bool isOperational)
 
 void Cart::getListOfItems()
 {
-	cout << "\nCurrent Items in Your Cart:" << endl;
 	for (int i = 0; i < numberOfItems; i++)
 	{
 		cout << listOfItems[i] << endl;
