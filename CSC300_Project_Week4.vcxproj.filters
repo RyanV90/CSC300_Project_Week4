@@ -24,14 +24,14 @@
     <ClCompile Include="BarCodeScanner.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InventoryItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BarCodeScanner.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Cart.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Customer.h">
       <Filter>Source Files</Filter>
     </ClInclude>
@@ -39,6 +39,18 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="Store.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BarCodeScanner.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cart.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryItem.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

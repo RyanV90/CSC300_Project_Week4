@@ -150,12 +150,16 @@
     <ClCompile Include="BarCodeScanner.cpp" />
     <ClCompile Include="Cart.cpp" />
     <ClCompile Include="CSC300_Project_Week4.cpp" />
+    <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="InventoryItem.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BarCodeScanner.h" />
     <ClInclude Include="Cart.h" />
     <ClInclude Include="Customer.h" />
     <ClInclude Include="Employee.h" />
+    <ClInclude Include="Inventory.h" />
+    <ClInclude Include="InventoryItem.h" />
     <ClInclude Include="Store.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
