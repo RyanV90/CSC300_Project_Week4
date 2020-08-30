@@ -1,5 +1,5 @@
 //
-//  Balance.hpp
+//  Balance.h
 //  GroceryStore
 //
 //  Created by OE Family on 8/29/20.
@@ -21,4 +21,4 @@ public:
     double calculateTotal(Cart);
     double getTotal();
 };
-#endif /* Balance_hpp */
+#endif /* Balance_h */

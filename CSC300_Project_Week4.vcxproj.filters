@@ -15,13 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CSC300_Project_Week4.cpp">
+    <ClCompile Include="Balance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BarCodeScanner.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Cart.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BarCodeScanner.cpp">
+    <ClCompile Include="CSC300_Project_Week4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Customer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Employee.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Inventory.cpp">
@@ -30,15 +39,15 @@
     <ClCompile Include="InventoryItem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Receipt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Store.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Customer.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Employee.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Store.h">
+    <ClInclude Include="Balance.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="BarCodeScanner.h">
@@ -47,10 +56,25 @@
     <ClInclude Include="Cart.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="Customer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Employee.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
     <ClInclude Include="Inventory.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="InventoryItem.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Payment.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Receipt.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Store.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

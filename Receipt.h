@@ -1,5 +1,5 @@
 //
-//  Receipt.hpp
+//  Receipt.h
 //  GroceryStore
 //
 //  Created by OE Family on 8/29/20.
@@ -22,4 +22,4 @@ public:
     void printReceipt(Cart,Balance);
     void nextReceiptNumber();
 };
-#endif /* Receipt_hpp */
+#endif /* Receipt_h */

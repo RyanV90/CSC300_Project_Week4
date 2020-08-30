@@ -10,13 +10,14 @@
 #define Payment_h
 #include<iostream>
 using namespace std;
-Class Payment{
+class Payment {
+
 public:
     bool isApproved{
-//In later developments this well be linked to a credit card maching to determine if payment is approved.
-        return True;
+        //In later developments this well be linked to a credit card maching to determine if payment is approved.
+                return true;
     }
-}
+};
 
 
 #endif /* Payment_h */

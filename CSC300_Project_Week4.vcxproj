@@ -18,6 +18,30 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Balance.cpp" />
+    <ClCompile Include="BarCodeScanner.cpp" />
+    <ClCompile Include="Cart.cpp" />
+    <ClCompile Include="CSC300_Project_Week4.cpp" />
+    <ClCompile Include="Customer.cpp" />
+    <ClCompile Include="Employee.cpp" />
+    <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="InventoryItem.cpp" />
+    <ClCompile Include="Receipt.cpp" />
+    <ClCompile Include="Store.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Balance.h" />
+    <ClInclude Include="BarCodeScanner.h" />
+    <ClInclude Include="Cart.h" />
+    <ClInclude Include="Customer.h" />
+    <ClInclude Include="Employee.h" />
+    <ClInclude Include="Inventory.h" />
+    <ClInclude Include="InventoryItem.h" />
+    <ClInclude Include="Payment.h" />
+    <ClInclude Include="Receipt.h" />
+    <ClInclude Include="Store.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{9EA18B1D-7E6E-4D5D-8D52-C2342DC3E553}</ProjectGuid>
@@ -146,22 +170,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="BarCodeScanner.cpp" />
-    <ClCompile Include="Cart.cpp" />
-    <ClCompile Include="CSC300_Project_Week4.cpp" />
-    <ClCompile Include="Inventory.cpp" />
-    <ClCompile Include="InventoryItem.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="BarCodeScanner.h" />
-    <ClInclude Include="Cart.h" />
-    <ClInclude Include="Customer.h" />
-    <ClInclude Include="Employee.h" />
-    <ClInclude Include="Inventory.h" />
-    <ClInclude Include="InventoryItem.h" />
-    <ClInclude Include="Store.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
