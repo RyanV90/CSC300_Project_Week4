@@ -12,9 +12,10 @@ class Inventory {
 public:
 	Inventory();
 	void displayInventory();
+	InventoryItem inventoryItems[10];
 
 private:
-	InventoryItem inventoryItems[10];
+	
 };
 
 #endif // !INVENTORY_H

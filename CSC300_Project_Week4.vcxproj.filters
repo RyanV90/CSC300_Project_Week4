@@ -59,13 +59,13 @@
     <ClInclude Include="InventoryItem.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="Payment.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="Receipt.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="Store.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Payment.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

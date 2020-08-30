@@ -3,6 +3,7 @@
 
 #include "BarCodeScanner.h"
 #include <iostream>
+#include "Inventory.h"
 
 using namespace std;
 
@@ -19,6 +20,7 @@ public:
 	void getListOfItems();
 	void addItemToCart();
 	void removeItemFromCart();
+	void calculateSubTotal(Inventory inventory);
 
 private:
 	int numberOfItems;

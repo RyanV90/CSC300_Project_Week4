@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Inventory.h"
 #include "Cart.h"
+#include "Balance.h"
 
 using namespace std;
 
@@ -15,8 +16,13 @@ int main()
     //Display cart
     cart.getListOfItems();
     //remove item from cart
-    cart.removeItemFromCart();
+    //cart.removeItemFromCart();
     //Display cart
-    cart.getListOfItems();
+    //cart.getListOfItems();
     //Complete purchase
+    Balance balance;
+    cart.calculateSubTotal(inventory);
+    balance.calculateTotal(cart);
+    cout << "\nYour final balance is: $" << balance.getTotal() << endl;
+    //Print Recipt
 }

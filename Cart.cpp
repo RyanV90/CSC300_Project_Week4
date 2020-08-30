@@ -101,3 +101,17 @@ void Cart::removeItemFromCart()
 		}
 	}
 }
+
+void Cart::calculateSubTotal(Inventory inventory)
+{
+	for (int i = 0; i < numberOfItems; i++)
+	{
+		for (int j = 0; j < 10; j++)
+		{
+			if (listOfItems[i] == inventory.inventoryItems[j].getItemName())
+			{
+				subTotal += inventory.inventoryItems[j].getPrice();
+			}
+		}
+	}
+}
