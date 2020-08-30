@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include "InventoryItem.h"
+#include <iomanip>
 
 using namespace std;
 

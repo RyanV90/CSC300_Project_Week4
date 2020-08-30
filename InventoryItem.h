@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <string>
+#include <iomanip>
 
 using namespace std;
 
@@ -21,7 +22,7 @@ public:
 	void setPrice(double price);
 	bool getHasPicture() const;
 	void setHasPicture(bool hasPicture);
-	string toString();
+	void toString();
 
 private:
 	string itemName;

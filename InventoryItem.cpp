@@ -68,9 +68,7 @@ void InventoryItem::setHasPicture(bool hasPicture)
 	this->hasPicture = hasPicture;
 }
 
-string InventoryItem::toString()
+void InventoryItem::toString()
 {
-	string displayItemInfo = "Name: " + itemName + " Type: " + itemType + " Brand: " + brand + " Price: " + to_string(price);
-	
-	return displayItemInfo;
+	cout << "Name: " << itemName << " Type: " << itemType << " Brand: " << brand << " Price: $" << fixed << setprecision(2) << price << endl;
 }

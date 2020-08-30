@@ -5,7 +5,6 @@ Cart::Cart()
 	numberOfItems = 0;
 	subTotal = 0.0;
 	isOperational = true;
-	listOfItems = {};
 }
 
 int Cart::getNumberOfItems() const
@@ -40,24 +39,41 @@ void Cart::setIsOperational(bool isOperational)
 
 void Cart::getListOfItems()
 {
+	cout << "\nCurrent Items in Your Cart:" << endl;
 	for (int i = 0; i < numberOfItems; i++)
 	{
-		cout << &listOfItems[i];
+		cout << listOfItems[i] << endl;
 	}
 }
 
-void Cart::addItemToCart(string itemName)
+void Cart::addItemToCart()
 {
-	listOfItems[numberOfItems] = itemName;
-	numberOfItems++;
+	string itemName;
+	
+	while (itemName != "q" && numberOfItems < 10)
+	{
+		cout << "\nEnter name of item to add: ";
+		cin >> itemName;
+
+		if (itemName != "q")
+		{
+			listOfItems[numberOfItems] = itemName;
+			numberOfItems++;
+			cout << "\nYou have successfully added " << itemName << " to your cart." << endl;
+		}
+	}
 }
 
 /*
 remove item from cart
 */
 
-void Cart::removeItemFromCart(string itemName)
+void Cart::removeItemFromCart()
 {
+	string itemName;
+	cout << "\nEnter name of item to remove: ";
+	cin >> itemName;
+	
 	int itemToRemove = 0;
 
 	for (int i = 0; i < numberOfItems; i++)
@@ -73,4 +89,6 @@ void Cart::removeItemFromCart(string itemName)
 		listOfItems[j] = listOfItems[j + 1];
 	}
 	numberOfItems--;
+
+	cout << "You have successfully remmoved " << itemName << " from your cart.";
 }

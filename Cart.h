@@ -17,14 +17,14 @@ public:
 	bool getIsOperational() const;
 	void setIsOperational(bool isOperational);
 	void getListOfItems();
-	void addItemToCart(string itemName);
-	void removeItemFromCart(string itemName);
+	void addItemToCart();
+	void removeItemFromCart();
 
 private:
 	int numberOfItems;
 	double subTotal;
 	bool isOperational;
-	string* listOfItems = new string();
+	string listOfItems[10];
 	BarCodeScanner barCodeScanner;
 };
 

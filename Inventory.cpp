@@ -16,8 +16,10 @@ Inventory::Inventory()
 
 void Inventory::displayInventory()
 {
+	cout << "Make your selections from our inventory!" << endl << endl;
+	
 	for (int i = 0; i < 10; i++)
 	{
-		cout << inventoryItems[i].toString();
+		inventoryItems[i].toString();
 	}
 }
