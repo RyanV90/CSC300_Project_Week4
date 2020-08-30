@@ -1,3 +1,8 @@
+/* Inventory.h
+
+Creates and displays the inventory.
+*/
+
 #ifndef INVENTORY_H
 #define INVENTORY_H
 
@@ -13,9 +18,6 @@ public:
 	Inventory();
 	void displayInventory();
 	InventoryItem inventoryItems[10];
-
-private:
-	
 };
 
 #endif // !INVENTORY_H

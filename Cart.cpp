@@ -1,3 +1,8 @@
+/* Cart.cpp
+
+Implements Cart.h
+*/
+
 #include "Cart.h"
 
 Cart::Cart()
@@ -37,6 +42,11 @@ void Cart::setIsOperational(bool isOperational)
 	this->isOperational = isOperational;
 }
 
+/* getListOfItems()
+
+Displays the items that are currently in the cart.
+*/
+
 void Cart::getListOfItems()
 {
 	for (int i = 0; i < numberOfItems; i++)
@@ -44,6 +54,11 @@ void Cart::getListOfItems()
 		cout << listOfItems[i] << endl;
 	}
 }
+
+/* addItemToCart()
+
+Customer adds an item to the cart. listOfItems is updated.
+*/
 
 void Cart::addItemToCart()
 {
@@ -63,8 +78,9 @@ void Cart::addItemToCart()
 	}
 }
 
-/*
-remove item from cart
+/* removeItemFromCart()
+
+remove item from cart. Item is removed from listOfItems.
 */
 
 void Cart::removeItemFromCart()
@@ -96,10 +112,15 @@ void Cart::removeItemFromCart()
 			}
 			numberOfItems--;
 
-			cout << "\nYou have successfully remmoved " << itemName << " from your cart." << endl;
+			cout << "\nYou have successfully removed " << itemName << " from your cart." << endl;
 		}
 	}
 }
+
+/* calculateSubTotal()
+
+Calcuates the subtotal to be used in Balance to calcuate the total.
+*/
 
 void Cart::calculateSubTotal(Inventory inventory)
 {

@@ -12,7 +12,7 @@ public:
 	void toString();
 
 private:
-	string name;
+  string name;
   int age;
   string address;
   string phone;

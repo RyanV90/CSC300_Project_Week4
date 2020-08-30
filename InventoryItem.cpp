@@ -1,3 +1,8 @@
+/* InventoryItem.cpp
+
+Implements InventoryItem.h.
+*/
+
 #include "InventoryItem.h"
 
 InventoryItem::InventoryItem()

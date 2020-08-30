@@ -10,11 +10,23 @@
 Receipt:: Receipt(){
     receiptNumber = 0;
 }
+
+/* printReceipt()
+
+Prints a reciept with receipt number, cart contents, and a total.
+*/
+
 void Receipt:: printReceipt(Cart c, Balance b){
     cout << "\nReceipt number: " << receiptNumber << endl;
     c.getListOfItems();
     cout << "Total: $" << b.getTotal() << endl;
 }
+
+/* nextReceiptNumber()
+
+Generates consecutive receipt numbers.
+*/
+
 void Receipt:: nextReceiptNumber(){
     receiptNumber++;
 }

@@ -1,3 +1,8 @@
+/* Cart.h
+
+Defines the cart that will be filled with items to purchase.
+*/
+
 #ifndef CART_H
 #define CART_H
 

@@ -1,3 +1,9 @@
+/* InventoryItem.h
+
+Defines the characteristics of an inventory item. 
+Items are added to the Inventory class.
+*/
+
 #ifndef INVENTORYITEM_H
 #define INVENTORYITEM_H
 
