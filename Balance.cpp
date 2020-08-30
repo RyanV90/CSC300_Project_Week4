@@ -6,7 +6,7 @@
 //  Copyright © 2020 OE Family. All rights reserved.
 //
 #include<iostream>
-#include "Balance.hpp"
+#include "Balance.h"
 #include "Cart.h"
 
 Balance:: Balance(){

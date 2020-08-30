@@ -6,7 +6,7 @@
 //  Copyright © 2020 OE Family. All rights reserved.
 //
 
-#include "Receipt.hpp"
+#include "Receipt.h"
 Receipt:: Receipt(){
     receiptNumber = 0;
 }
