@@ -1,2 +1,4 @@
 C:\Users\rmvei\Desktop\CSC300_Project_Week4\Debug\CSC300_Project_Week4.exe
 C:\Users\rmvei\Desktop\CSC300_Project_Week4\Debug\CSC300_Project_Week4.pdb
+C:\Users\rmvei\Desktop\New folder\CSC300_Project_Week4\Debug\CSC300_Project_Week4.exe
+C:\Users\rmvei\Desktop\New folder\CSC300_Project_Week4\Debug\CSC300_Project_Week4.pdb

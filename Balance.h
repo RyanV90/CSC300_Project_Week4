@@ -18,7 +18,7 @@ private:
     double total;
 public:
     Balance();
-    double calculateTotal(Cart);
+    void calculateTotal(Cart);
     double getTotal();
 };
 #endif /* Balance_h */

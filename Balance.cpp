@@ -11,9 +11,10 @@
 
 Balance:: Balance(){
     taxRate = .085;
+    total = 0;
 }
 
-double Balance::calculateTotal(Cart c){
+void Balance::calculateTotal(Cart c){
     total = (c.getSubTotal()* taxRate)+c.getSubTotal();
 }
 double Balance::getTotal(){return total;}

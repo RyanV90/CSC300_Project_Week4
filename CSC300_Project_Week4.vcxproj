@@ -23,12 +23,9 @@
     <ClCompile Include="BarCodeScanner.cpp" />
     <ClCompile Include="Cart.cpp" />
     <ClCompile Include="CSC300_Project_Week4.cpp" />
-    <ClCompile Include="Customer.cpp" />
-    <ClCompile Include="Employee.cpp" />
     <ClCompile Include="Inventory.cpp" />
     <ClCompile Include="InventoryItem.cpp" />
     <ClCompile Include="Receipt.cpp" />
-    <ClCompile Include="Store.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Balance.h" />
