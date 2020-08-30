@@ -12,8 +12,8 @@ public:
 	Cart();
 	int getNumberOfItems() const;
 	void setNumberOfItems(int numberOfItems);
-	double getSubtotal() const;
-	void setSubtotal(double subtotal);
+	double getSubTotal() const;
+	void setSubTotal(double subtotal);
 	bool getIsOperational() const;
 	void setIsOperational(bool isOperational);
 	void getListOfItems();
@@ -22,7 +22,7 @@ public:
 
 private:
 	int numberOfItems;
-	double subtotal;
+	double subTotal;
 	bool isOperational;
 	string* listOfItems = new string();
 	BarCodeScanner barCodeScanner;

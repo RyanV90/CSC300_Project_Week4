@@ -12,7 +12,7 @@ Receipt:: Receipt(){
 }
 void Receipt:: printReceipt(Cart c, Balance b){
     cout << "Receipt number: " << receiptNumber << endl;
-    c.getListOfItems(c.getNumberOfItems());
+    c.getListOfItems();
     cout << "Total: " << b.getTotal() << endl;
 }
 void Receipt:: nextReceiptNumber(){
