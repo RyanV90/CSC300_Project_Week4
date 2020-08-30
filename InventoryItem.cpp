@@ -2,49 +2,75 @@
 
 InventoryItem::InventoryItem()
 {
+	itemName = " ";
+	itemType = " ";
+	brand = " ";
+	price = 0.0;
+	hasPicture = false;
+}
+
+InventoryItem::InventoryItem(string itemName, string itemType, string brand, double price, bool hasPicture)
+{
+	this->itemName = itemName;
+	this->itemType = itemType;
+	this->brand = brand;
+	this->price = price;
+	this->hasPicture = hasPicture;
 }
 
 string InventoryItem::getItemName() const
 {
-	return string();
+	return itemName;
 }
 
 void InventoryItem::setItemName(string itemName)
 {
+	this->itemName = itemName;
 }
 
 string InventoryItem::getItemType() const
 {
-	return string();
+	return itemType;
 }
 
 void InventoryItem::setItemType(string itemType)
 {
+	this->itemType = itemType;
 }
 
 string InventoryItem::getItemBrand() const
 {
-	return string();
+	return brand;
 }
 
 void InventoryItem::setItemBrand(string itemBrand)
 {
+	this->brand = brand;
 }
 
 double InventoryItem::getPrice() const
 {
-	return 0.0;
+	return price;
 }
 
 void InventoryItem::setPrice(double price)
 {
+	this->price = price;
 }
 
 bool InventoryItem::getHasPicture() const
 {
-	return false;
+	return hasPicture;
 }
 
 void InventoryItem::setHasPicture(bool hasPicture)
 {
+	this->hasPicture = hasPicture;
+}
+
+string InventoryItem::toString()
+{
+	string displayItemInfo = "Name: " + itemName + " Type: " + itemType + " Brand: " + brand + " Price: " + to_string(price);
+	
+	return displayItemInfo;
 }

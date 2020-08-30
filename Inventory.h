@@ -10,7 +10,6 @@ class Inventory {
 
 public:
 	Inventory();
-	void createInventory();
 	void displayInventory();
 
 private:
