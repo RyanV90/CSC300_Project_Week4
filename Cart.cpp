@@ -70,25 +70,34 @@ remove item from cart
 
 void Cart::removeItemFromCart()
 {
-	string itemName;
-	cout << "\nEnter name of item to remove: ";
-	cin >> itemName;
 	
-	int itemToRemove = 0;
+	string itemName;
 
-	for (int i = 0; i < numberOfItems; i++)
+	while (itemName != "q" && numberOfItems < 10)
 	{
-		if (listOfItems[i] == itemName)
+		cout << "\nEnter name of item to remove (Type q to quit): ";
+		cin >> itemName;
+
+		int itemToRemove = 0;
+
+		if (itemName != "q")
 		{
-			itemToRemove = i;
+
+			for (int i = 0; i < numberOfItems; i++)
+			{
+				if (listOfItems[i] == itemName)
+				{
+					itemToRemove = i;
+				}
+			}
+
+			for (int j = itemToRemove; j < numberOfItems; j++)
+			{
+				listOfItems[j] = listOfItems[j + 1];
+			}
+			numberOfItems--;
+
+			cout << "\nYou have successfully remmoved " << itemName << " from your cart." << endl;
 		}
 	}
-
-	for (int j = itemToRemove; j < numberOfItems; j++)
-	{
-		listOfItems[j] = listOfItems[j + 1];
-	}
-	numberOfItems--;
-
-	cout << "You have successfully remmoved " << itemName << " from your cart.";
 }

@@ -15,6 +15,8 @@ int main()
     //Display cart
     cart.getListOfItems();
     //remove item from cart
+    cart.removeItemFromCart();
     //Display cart
+    cart.getListOfItems();
     //Complete purchase
 }
