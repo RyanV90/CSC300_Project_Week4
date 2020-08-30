@@ -52,7 +52,7 @@ void Cart::addItemToCart()
 	
 	while (itemName != "q" && numberOfItems < 10)
 	{
-		cout << "\nEnter name of item to add: ";
+		cout << "\nEnter name of item to add (Type q to quit): ";
 		cin >> itemName;
 
 		if (itemName != "q")
