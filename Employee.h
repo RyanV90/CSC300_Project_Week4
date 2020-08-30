@@ -19,11 +19,11 @@ public:
 
 private:
 	string name;
-	sting employeeID;
-  string position;
-  string address;
-  string phone;
-  string email;
+	string employeeID;
+ 	string position;
+  	string address;
+  	string phone;
+  	string email;
 };
 
 #endif // !EMPLOYEE_H
